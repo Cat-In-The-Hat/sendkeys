@@ -25,8 +25,10 @@ namespace sendkeys
 
         private static void RunOptions(Options options)
         {
+            #if DEBUG
             Console.WriteLine("Targeted window: {0}", options.WindowName);
             Console.WriteLine("Key to be sent: {0}", options.Key);
+            #endif
             try
             {
                 Process process = new Process();
