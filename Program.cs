@@ -44,7 +44,6 @@ namespace sendkeys
             try
             {
                 Process[] proc = Process.GetProcesses();
-                int i = 0;
                 foreach (Process p in proc)
                 {
                     if (p.MainWindowTitle==options.WindowName)
