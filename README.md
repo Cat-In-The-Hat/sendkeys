@@ -4,6 +4,10 @@ Wee console app duplicating windows forms SendKeys.
 
 ## USAGE
 
+sendkeys -w "window" -k "keys"
+
+Will send the _keys_ to _window_. 
+
   -w           Window name where the key will be sent.
 
   -k           The key to be sent.
